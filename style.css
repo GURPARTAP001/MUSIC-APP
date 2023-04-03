@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Potta+One&family=Roboto+Slab:wght@300&family=Ubuntu:ital@1&display=swap');
+/* font-family: 'Alkatra', cursive;
+font-family: 'Potta One', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: antiquewhite;
+}
+
+nav {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li {
+    padding: 0 12px;
+}
+
+.brand_logo img {
+    height: 50px;
+}
+
+.container {
+    min-height: 57vh;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    margin: 22px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    /* background-image: url("1.jpeg"); */
+    /* background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 10px; */
+}
+
+.bottom {
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+#myProgressBar {
+    width: 50vw;
+    cursor: pointer;
+    border: solid 1px #82CFD0;
+    border-radius: 8px;
+    height: 5px;
+    outline: none;
+    background-image: linear-gradient(135deg, #acb6e5 10%, #86fde8 100%);
+    appearance: none;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-top: 15px;
+}
+
+/* this is the gif */
+.songInfo img{
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    left: 20%;
+    opacity: 0;
+   
+}
+.songInfo span{
+    height: 40px;
+    width: 170px;
+    position: absolute;
+    left: 30%;
+    opacity: 0;
+    margin-top: 12px;
+   
+}
+
+.songItemcontainer{
+     margin-top: 34px;
+}
+
+.songItem{
+    padding: 0 5px;
+    height: 40px;
+    display: flex;
+    background-color: rgb(209, 227, 108);
+    
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 40px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
